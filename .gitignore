@@ -16,6 +16,9 @@
 *.gch
 *.pch
 
+# Resources
+*.rc
+
 # Libraries
 *.lib
 *.a
