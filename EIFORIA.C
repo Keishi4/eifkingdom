@@ -135,9 +135,9 @@ clrscr();
 void prn_sost(long god)
 {
 if (fl_end==1)
- printf("\n                   Состояние Ваших дел после %i лет правления.",god);
+ printf("\n                   Состояние Ваших дел после %li лет правления.",god);
 else
- printf("\n                   Состояние Ваших дел на %i-й год правления.",god);
+ printf("\n                   Состояние Ваших дел на %li-й год правления.",god);
 printf("\nНаличность в казне: %li руб.",cur_money);
 printf("\n╔════════════════╤════════════╗");
 printf("\n║    Название    │   Запасы   ║");
@@ -572,7 +572,7 @@ printf("зерно - %li; ",cur_zerno/100);
 printf("\nкрестьяне - %li; ",cur_krest/20);
 printf("гвардия - %li; ",cur_guard/10);
 printf("новые храмы - %li; ",build_xram*200);
-printf("время правления - %i.",i*10);
+printf("время правления - %li.",i*10);
 }
 
 long make_ochki(long i)
@@ -812,7 +812,7 @@ void rodilsa_sin()
 long cur;
 printf("\n\nУ Вас родился сын! Поздравляю! Ваша династия не угаснет в веках!");
 cur=(random(40)+20)*cur_money/100;
-printf("\nНа праздничный банкет по случаю рождения сына потрачено %li руб.");
+printf("\nНа праздничный банкет по случаю рождения сына потрачено %li руб.",cur);
 cur_money-=cur;
 }
 
