@@ -2,7 +2,7 @@ void intro()
 {
 char s[255];
 int i,j;
-// textcolor(7);
+textcolor(7);
 clrscr();
 for (i=-10; i<12; i++)
 {
