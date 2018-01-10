@@ -119,7 +119,7 @@ void main(int argc,char *argv[])
 {
 long n;
 randomize();
-/* textcolor(7); */
+textcolor(7);
 if ((argc<=1)||(stricmp(argv[1],"no")!=0)) intro();
 do
  {
