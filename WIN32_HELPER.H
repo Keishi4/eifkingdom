@@ -31,6 +31,11 @@ inline void clrscr(void)
     system("cls");
 }
 
+inline void delay(int n)
+{
+    Sleep(n);
+}
+
 inline int random(int number)
 {
     return ((rand() * number) / (RAND_MAX + 1));

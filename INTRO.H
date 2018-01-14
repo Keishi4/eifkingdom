@@ -69,7 +69,7 @@ for (i=-10; i<12; i++)
     }
    else printf("        ﬂ   ﬂ  ﬂﬂﬂ  ﬂ      ﬂﬂﬂ  ﬂ   ﬂ ﬂﬂﬂﬂﬂ ﬂﬂﬂﬂ   ﬂﬂﬂ    ﬂ   ﬂﬂﬂﬂ   ﬂﬂﬂ ");
   }
- // delay(20);
+ delay(20);
 }
 for (i=50; i>24; i--)
 {
@@ -120,7 +120,7 @@ for (i=50; i>24; i--)
    gotoxy(1,j);
    printf("                                                                     ");
   }
- // delay(20);
+ delay(20);
 }
 strcpy(s,"Ç Ö ê ë à ü  1.2");
 gotoxy(33,20);
@@ -128,14 +128,14 @@ for (i=0; i<strlen(s); i++)
  {
   // cprintf("%c",s[i]);
   printf("%c",s[i]);
-  // delay(12);
+  delay(12);
 }
 strcpy(s,"Copyright (c) Ponpa Dmitriy, 41PDM. 1998.");
 gotoxy(21,22);
 for (i=0; i<strlen(s); i++)
  {
   cprintf("%c",s[i]);
-  // delay(12);
+  delay(12);
  }
 gotoxy(1,1);
 getch();
