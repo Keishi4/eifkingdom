@@ -18,6 +18,7 @@
 
 # Resources
 # *.rc
+*.res
 
 # Libraries
 *.lib
